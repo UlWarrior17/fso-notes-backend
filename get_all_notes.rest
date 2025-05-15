@@ -8,3 +8,14 @@ Content-Type: application/json
     "content": "Ensure that everything still works",
     "important": true
 }
+
+###
+DELETE http://localhost:3001/api/notes/680cb055ab6977061bc8a388
+
+###
+PUT http://localhost:3001/api/notes/67dfbb7c1cbdf35ecf7d6579
+Content-Type:application/json
+
+{
+    "content": "Testing from the backend", "important": true
+}
