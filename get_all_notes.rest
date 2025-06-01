@@ -1,12 +1,14 @@
 GET http://localhost:3001/api/notes
 
 ###
-POST http://localhost:3001/api/notes
+POST http://localhost:3001/api/blog
 Content-Type: application/json
 
 {
-    "content": "Ensure that everything still works",
-    "important": true
+    "title": "Hello World is the first thing you print when learning programming",
+    "author": "Nsan Eto",
+    "url": "example.com",
+    "likes": 10
 }
 
 ###
